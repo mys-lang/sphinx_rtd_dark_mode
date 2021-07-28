@@ -8,11 +8,11 @@ html[data-theme='dark'] body {
 }
 
 html[data-theme='dark'] .wy-nav-content-wrap {
-  background-color: #101010;
+  background-color: #22272e;
 }
 
 html[data-theme='dark'] .wy-nav-content {
-  background-color: #141414;
+  background-color: #1e2329;
 }
 
 html[data-theme='dark'] .section {
@@ -20,38 +20,71 @@ html[data-theme='dark'] .section {
 }
 
 html[data-theme='dark'] .highlight {
-  background-color: #17181c;
+  background-color: #22272e;
 }
 
 html[data-theme='dark'] .highlight .nn {
   color: var(--dark-text-color);
+  font-weight: normal;
 }
 
-html[data-theme='dark'] .highlight .nb {
-  color: #8bb8df;
+html[data-theme='dark'] .highlight .nb,
+html[data-theme='dark'] .highlight .fm,
+html[data-theme='dark'] .highlight .nd {
+  color: #dcbdfb;
+}
+
+html[data-theme='dark'] .highlight .si,
+html[data-theme='dark'] .highlight .bp {
+    color: unset;
+    font-weight: normal;
+}
+
+html[data-theme='dark'] .highlight .nc,
+html[data-theme='dark'] .highlight .ne {
+  color: #f69d50;
+}
+
+html[data-theme='dark'] .highlight .ow,
+html[data-theme='dark'] .highlight .o,
+html[data-theme='dark'] .highlight .mi,
+html[data-theme='dark'] .highlight .mf {
+  color: #6cb6ff;
 }
 
 html[data-theme='dark'] .highlight .kn,
-html[data-theme='dark'] .highlight .kc,
 html[data-theme='dark'] .highlight .k {
-  color: #41c2ea;
+  color: #f47067;
+}
+
+html[data-theme='dark'] .highlight .kc {
+  color: #6cb6ff;
+}
+
+html[data-theme='dark'] .highlight .sa {
+  color: unset;
 }
 
 html[data-theme='dark'] .highlight .s1,
+html[data-theme='dark'] .highlight .s,
 html[data-theme='dark'] .highlight .s2 {
-  color: #b3e87f;
+  color: #96d0ff;
 }
 
 html[data-theme='dark'] .highlight .nt {
   color: #ccb350;
 }
 
+html[data-theme='dark'] .highlight .nf {
+  color: #dcbdfb;
+}
+
 html[data-theme='dark'] .highlight .c1 {
-  color: #686868;
+  color: #768390;
 }
 
 html[data-theme='dark'] .rst-content div[class^='highlight'] {
-  border-color: #1a1a1a;
+  border-color: #444c56;
 }
 
 html[data-theme='dark'] .wy-nav-content a,
@@ -60,7 +93,9 @@ html[data-theme='dark'] .wy-nav-content a:visited {
 }
 
 html[data-theme='dark'] .btn-neutral {
-  background-color: #17181c !important;
+  background-color: #2d333b !important;
+  border-color: #444c56;
+  color: #c1c1c1 !important;
 }
 
 html[data-theme='dark'] .btn-neutral:hover {
@@ -80,16 +115,16 @@ html[data-theme='dark'] footer {
 }
 
 html[data-theme='dark'] .wy-nav-side {
-  background-color: #0d0d0d;
+  background-color: #2d333b;
 }
 
 html[data-theme='dark'] .wy-menu-vertical li.current {
-  background-color: #141414;
+  background-color: #3a414a;
 }
 
 html[data-theme='dark'] .wy-menu-vertical li.current > a,
 html[data-theme='dark'] .wy-menu-vertical li.on a {
-  background-color: #141415;
+  background-color: #1e2329;
   color: var(--dark-text-color);
 }
 
@@ -118,11 +153,11 @@ html[data-theme='dark']
   li.toctree-l2.current
   li.toctree-l3
   > a {
-  background-color: #18181a;
+  background-color: #1e1e1e;
 }
 
 html[data-theme='dark'] .wy-side-nav-search {
-  background-color: #0b152d;
+  background-color: #1e2329;
 }
 
 html[data-theme='dark'] .wy-side-nav-search .wy-dropdown > a,
@@ -132,7 +167,7 @@ html[data-theme='dark'] .wy-side-nav-search > a {
 
 html[data-theme='dark'] .wy-side-nav-search input[type='text'] {
   border-color: #111;
-  background-color: #141414;
+  background-color: #1e2329;
   color: var(--dark-text-color);
 }
 
@@ -175,7 +210,9 @@ html[data-theme='dark'] .rst-content code,
 html[data-theme='dark'] .rst-content tt,
 html[data-theme='dark'] code {
   background-color: #2d2d2d;
+  background-color: #2d333b;
   border-color: #1c1c1c;
+  border-radius: 6px;
 }
 
 html[data-theme='dark'] .rst-content code.xref,
@@ -482,7 +519,7 @@ html[data-theme='dark'] .wy-table-bordered-all td,
 html[data-theme='dark'].writer-html5 .rst-content table.docutils th,
 html[data-theme='dark'] .rst-content table.docutils,
 html[data-theme='dark'] .wy-table-bordered-all {
-  border-color: #262626;
+  border-color: #444c56;
 }
 
 html[data-theme='dark'] .rst-content table.docutils caption,
